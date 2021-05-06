@@ -1,7 +1,5 @@
 class PhoneBook:
-
-
-	def __init__( self ):
+	def __init__(self):
 		self.numbers = {}
 
 	def add(self, name, number):
@@ -9,3 +7,6 @@ class PhoneBook:
 
 	def lookup(self, name):
 		return self.numbers[name]
+
+	def is_consistent(self):
+		pass
